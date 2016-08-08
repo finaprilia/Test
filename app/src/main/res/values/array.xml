@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sort">
+        <item name="popularity">Popularity</item>
+        <item name="lowHigh">Low Price - High Price</item>
+        <item name="highLow">High Price - Low Price</item>
+    </string-array>
+
+    <string-array name="filter">
+        <item name="semua">Semua</item>
+        <item name="gadget">Gadget</item>
+        <item name="shirt">Shirt</item>
+        <item name="jeans">Jeans</item>
+    </string-array>
+</resources>

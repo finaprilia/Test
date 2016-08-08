@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.jenong.test.View.DetailActivity"
+    tools:showIn="@layout/activity_detaill">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/orenDeskripsi"
+            android:clickable="true"
+            android:layout_marginTop="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:background="@android:color/holo_orange_dark"
+                android:padding="12dp"
+                android:text="Deskripsi"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/klikOrenDes"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/atas"/>
+
+        </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/putihDeskripsi"
+            android:visibility="visible"
+            android:padding="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@android:color/white">
+
+            <TextView
+                android:id="@+id/deskripsi"
+                android:text="Deskripsi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <RelativeLayout
+            android:visibility="gone"
+            android:id="@+id/orenSpesifikasi"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:background="@android:color/holo_orange_dark"
+                android:padding="12dp"
+                android:text="Spesifikasi"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/klikOrenSpek"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/bawah"/>
+
+        </RelativeLayout>
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/putihSpesifikasi"
+            android:padding="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@android:color/white">
+
+            <TextView
+                android:id="@+id/txtSpesifikasi"
+                android:text="Spesifikasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <RelativeLayout
+            android:visibility="gone"
+            android:id="@+id/orenSize"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:background="@android:color/holo_orange_dark"
+                android:padding="12dp"
+                android:text="Ukuran"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/klikOrenUku"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/bawah"/>
+
+        </RelativeLayout>
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/putihSize"
+            android:padding="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@android:color/white">
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
